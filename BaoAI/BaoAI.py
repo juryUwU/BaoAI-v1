@@ -224,7 +224,7 @@ def weather():
     canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH)
     canvas.pack()
 
-    background_image = tk.PhotoImage(file='landscape.png')
+    background_image = tk.PhotoImage(file='BaoAI/landscape.png')
     background_label = tk.Label(root, image=background_image)
     background_label.place(relwidth=1, relheight=1)
 
